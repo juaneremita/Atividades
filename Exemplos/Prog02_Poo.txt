@@ -1,0 +1,33 @@
+
+// Online IDE - Code Editor, Compiler, Interpreter
+
+import java.util.Scanner;
+
+// Classe Calculadora com apenas um método
+class Calculadora {
+    public int somar(int a, int b) {
+        return a + b;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.print("Digite o primeiro número: ");
+        int num1 = entrada.nextInt();
+
+        System.out.print("Digite o segundo número: ");
+        int num2 = entrada.nextInt();
+
+        // Criando objeto da classe Calculadora
+        Calculadora calc = new Calculadora();
+
+        // Chamando o método somar
+        int resultado = calc.somar(num1, num2);
+
+        System.out.println("A soma é: " + resultado);
+
+        entrada.close();
+    }
+}
