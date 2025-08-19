@@ -1,6 +1,4 @@
 
-// Online IDE - Code Editor, Compiler, Interpreter
-
 import java.util.Scanner;
 
 // Classe Calculadora com apenas um método
